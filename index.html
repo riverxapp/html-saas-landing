@@ -1,66 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Edit Me</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
-  <style>
-    :root {
-      color-scheme: light;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      background: #ffffff;
-      color: #111111;
-      font-family: "Inter", sans-serif;
-    }
-
-    main {
-      width: min(28rem, calc(100vw - 2rem));
-      text-align: center;
-    }
-
-    .icon {
-      width: 3rem;
-      height: 3rem;
-      margin: 0 auto 1rem;
-      display: block;
-      color: #111111;
-    }
-
-    h1 {
-      margin: 0 0 0.5rem;
-      font-size: 1.5rem;
-      font-weight: 600;
-    }
-
-    p {
-      margin: 0;
-      font-size: 1rem;
-      line-height: 1.5;
-      color: #444444;
-    }
-  </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Orbit brings projects, tasks, and your team together in one calm, connected workspace. Explore the interactive product preview.">
+<meta name="theme-color" content="#fbfcfe"><title>Orbit — A little clarity. A lot of progress.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;450;500;550;600;650;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
 </head>
 <body>
-  <main>
-    <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M12 3L4 7V12C4 17 7.4 20.9 12 22C16.6 20.9 20 17 20 12V7L12 3Z" stroke="currentColor" stroke-width="1.5"/>
-      <path d="M9.5 12L11.25 13.75L15 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    <h1>Open for Editing</h1>
-    <p>Agent: edit this page freely and keep it simple.</p>
-  </main>
-</body>
-</html>
+<svg class="svg-defs" xmlns="http://www.w3.org/2000/svg"><defs>
+<symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol><symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol><symbol id="grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/></symbol><symbol id="layers" viewBox="0 0 24 24"><path d="m3 8 9-5 9 5-9 5-9-5Zm0 5 9 5 9-5M3 18l9 5 9-5"/></symbol><symbol id="spark" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3Z"/></symbol><symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol><symbol id="people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20v-3a6 6 0 0 1 12 0v3m1-15a3 3 0 0 1 0 6m2 3a5 5 0 0 1 3 5"/></symbol><symbol id="chat" viewBox="0 0 24 24"><path d="M20 15a3 3 0 0 1-3 3H8l-5 3V6a3 3 0 0 1 3-3h11a3 3 0 0 1 3 3v9Z"/><path d="M7 8h9m-9 5h6"/></symbol><symbol id="filter" viewBox="0 0 24 24"><path d="M4 6h16M7 12h10m-7 6h4"/><circle cx="9" cy="6" r="2"/><circle cx="15" cy="12" r="2"/></symbol><symbol id="plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol><symbol id="chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol><symbol id="bolt" viewBox="0 0 24 24"><path d="m13 2-9 12h7l-1 8 10-12h-7l1-8Z"/></symbol><symbol id="link" viewBox="0 0 24 24"><path d="m10 7 3-3a5 5 0 0 1 7 7l-3 3m-3 3-3 3a5 5 0 0 1-7-7l3-3m1 6 8-8"/></symbol>
+</defs></svg>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><nav class="nav container" aria-label="Main navigation">
+<a href="#" class="brand" aria-label="Orbit home"><span class="orbit-mark"></span>orbit<span class="brand-period">®</span></a>
+<div class="nav-links" id="nav-links"><a href="#features">Features</a><a href="#integrations">Integrations</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></div>
+<div class="nav-actions"><button class="login text-button" data-start>Log in <span>↗</span></button><button class="button button-small" data-start>Get started <svg><use href="#arrow"/></svg></button><button class="menu-button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation"><span></span><span></span></button></div>
+</nav></header>
+<main id="main">
+<section class="hero container">
+<a href="#demo" class="announcement"><span class="announcement-label"><svg><use href="#spark"/></svg> Meet your new workspace</span><span class="announcement-tail">Less busy. More progress. <span>↗</span></span></a>
+<h1>A little clarity.<br>A lot of <span class="headline-accent">progress.<svg viewBox="0 0 345 15" aria-hidden="true"><path d="M4 10Q160-2 339 7"/></svg></span></h1>
+<p class="hero-copy">Bring your projects, people, and ideas into one orbit.<br>Less switching tabs. More making things happen.</p>
+<div class="hero-actions"><button class="button" data-start>Start for free <svg><use href="#arrow"/></svg></button><button class="button button-white" id="watch-demo"><span class="play-icon">▶</span> Watch demo <span class="duration">3 steps</span></button></div>
+<div class="hero-note"><span><svg><use href="#check"/></svg> Free to get started</span><span><svg><use href="#check"/></svg> No credit card needed</span></div>
+<div class="product-stage" id="demo">
+<div class="stage-caption"><span class="live-dot"></span> A home for your next big thing <span class="caption-line"></span><span class="demo-label">INTERACTIVE PREVIEW</span></div>
+<div class="dashboard">
+<aside class="app-sidebar"><div class="workspace-switch"><span class="workspace-icon">S</span><strong>Studio workspace</strong><svg><use href="#chevron"/></svg></div><div class="sidebar-links"><span><svg><use href="#grid"/></svg>Overview</span><span><svg><use href="#chat"/></svg>Inbox <b>4</b></span><span><svg><use href="#check"/></svg>My tasks</span></div><div class="sidebar-label">WORKSPACE <span>＋</span></div><div class="sidebar-links"><span class="selected"><svg><use href="#layers"/></svg>Projects <b>6</b></span><span><svg><use href="#people"/></svg>Team members</span><span><svg><use href="#clock"/></svg>Activity</span></div><div class="project-shortcuts"><span><i class="small-dot blue"></i>Website redesign</span><span><i class="small-dot purple"></i>Mobile app</span><span><i class="small-dot orange"></i>Brand refresh</span></div><div class="sidebar-bottom"><span class="avatar avatar-purple">JD</span><div><strong>Jamie Davis</strong><small>Personal account</small></div><span>⌄</span></div></aside>
+<div class="app-main"><div class="app-breadcrumb">Workspace <span>/</span> Projects <span>/</span><strong id="project-name">Website redesign</strong><span class="breadcrumb-end">☆ <span>···</span></span></div><div class="project-heading"><div><div class="project-title"><span class="project-icon">✳</span><h2>Website redesign</h2><span class="status-pill">In progress</span></div><p>A fresh look. A better experience. Let’s make it happen.</p></div><div class="collaborators"><span class="avatar avatar-peach">AL</span><span class="avatar avatar-green">MK</span><span class="avatar avatar-purple">JD</span><span class="avatar avatar-light">+2</span></div></div>
+<div class="board-toolbar"><div class="view-tabs" role="tablist" aria-label="Project view"><button class="active" role="tab" aria-selected="true" data-view="board"><svg><use href="#grid"/></svg>Board</button><button role="tab" aria-selected="false" data-view="list"><span>☷</span>List</button><button role="tab" aria-selected="false" data-view="timeline"><svg><use href="#clock"/></svg>Timeline</button></div><div class="board-actions"><button id="filter-tasks" class="filter-button" aria-pressed="false"><svg><use href="#filter"/></svg><span>Filter</span></button><button class="add-task" id="new-task"><svg><use href="#plus"/></svg>Add task</button></div></div>
+<div class="board" id="project-board" aria-live="polite"></div>
+<div class="app-bottom"><span><span class="live-dot"></span> All changes saved</span><span>Made for moving forward <span>✳</span></span></div>
+</div></div>
+<div class="floating-update"><span class="update-check"><svg><use href="#check"/></svg></span><div><strong>Everything, moving together.</strong><span>Your team’s next chapter starts here.</span></div><svg class="update-spark"><use href="#spark"/></svg></div>
+</div>
+</section>
+<section class="tool-strip container"><p>Good company for the tools you already love.</p><div class="tool-logos"><span class="tool-logo"><span class="slack-logo">✣</span>slack</span><span class="tool-logo notion-logo"><b>N</b>Notion</span><span class="tool-logo"><span class="figma-logo"><i></i><i></i><i></i><i></i><i></i></span>Figma</span><span class="tool-logo github-logo"><svg viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 2a10 10 0 0 0-3.2 19.5v-2.7c-2.8.6-3.4-1.2-3.4-1.2-.4-1.1-1-1.4-1-1.4-.9-.7.1-.7.1-.7 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.9.1-.6.4-1.1.7-1.4-2.3-.3-4.7-1.1-4.7-5a4 4 0 0 1 1-2.8c-.1-.3-.5-1.3.1-2.7 0 0 .9-.3 2.8 1a10 10 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .6 1.4.2 2.4.1 2.7a4 4 0 0 1 1 2.8c0 3.9-2.4 4.7-4.7 5 .4.4.7 1 .7 2v3.5A10 10 0 0 0 12 2Z"/></svg>GitHub</span><span class="tool-logo"><span class="google-g">G</span>Google Drive</span><span class="tool-logo linear-logo"><i></i>Linear</span></div></section>
+<section id="features" class="section features container"><div class="section-heading reveal"><div><span class="eyebrow">LESS FRICTION. MORE FLOW.</span><h2>Big ideas need<br>a little breathing room.</h2></div><p>Give your team a clear path from “what if” to “it’s live.” Everything you need, without everything you don’t.</p></div>
+<div class="feature-grid"><article class="feature-card feature-wide reveal"><div class="feature-icon"><svg><use href="#layers"/></svg></div><h3>A place for every moving part.</h3><p>Plan projects, set priorities, and keep the next step clear.<br>From the big picture to the small details.</p><div class="mini-list"><div class="mini-list-head"><span>✳ &nbsp; Launch checklist</span><span class="mini-tag">6 tasks</span></div><div><span class="mini-check done">✓</span>Define the product story<span class="mini-avatar avatar-purple">JD</span><span class="mini-tag green-tag">Done</span></div><div><span class="mini-check done">✓</span>Build the design system<span class="mini-avatar avatar-peach">AL</span><span class="mini-tag green-tag">Done</span></div><div><span class="mini-check"></span>Bring the homepage to life<span class="mini-avatar avatar-green">MK</span><span class="mini-tag purple-tag">In progress</span></div></div></article>
+<article class="feature-card feature-team reveal"><div class="feature-icon"><svg><use href="#people"/></svg></div><h3>On the same page. Finally.</h3><p>Keep conversations close to the work.<br>More context, fewer “quick syncs.”</p><div class="comment-card"><span class="avatar avatar-peach">AL</span><div><strong>Alex Lee <small>Just now</small></strong><p>The new direction looks so good!<br><span>@Jamie</span> ready for your eyes 👀</p><span class="reaction">🙌 &nbsp; 3</span></div></div><div class="comment-reply"><span class="avatar avatar-purple">JD</span><span>Love where this is going. ✨</span></div></article>
+<article class="feature-card feature-small reveal"><div class="feature-icon"><svg><use href="#bolt"/></svg></div><h3>Let the busywork go.</h3><p>Set simple rules for repetitive tasks.<br>Keep your energy for the good stuff.</p><div class="automation"><span><svg><use href="#check"/></svg> Task completed</span><span class="automation-arrow">↓</span><span><svg><use href="#bolt"/></svg> Notify the team <i class="live-dot"></i></span></div></article>
+<article class="feature-card feature-small reveal"><div class="feature-icon"><svg><use href="#grid"/></svg></div><h3>Your work. Your point of view.</h3><p>Boards for the flow. Lists for the details.<br>Timelines for the bigger picture.</p><div class="mini-views"><span class="chosen"><svg><use href="#grid"/></svg>Board</span><span>☷ &nbsp; List</span><span><svg><use href="#clock"/></svg>Timeline</span></div><div class="mini-timeline"><i></i><i></i><i></i></div></article>
+<article class="feature-card feature-small feature-focus reveal"><div class="feature-icon"><svg><use href="#spark"/></svg></div><h3>Make room for deep work.</h3><p>A calm home for your daily priorities.<br>Know what matters. Make it happen.</p><div class="focus-demo"><span class="focus-ring">3<span>priorities</span></span><div><strong>A little more focus.</strong><span>A lot less noise.</span><span class="focus-tag">✳ &nbsp; You’ve got this</span></div></div></article></div>
+</section>
+<section class="integrations-section" id="integrations"><div class="container integrations-layout"><div class="integration-copy reveal"><span class="eyebrow">BETTER, TOGETHER</span><h2>Fits right into<br>your orbit.</h2><p>Your favorite tools don’t need replacing.<br>They just need a place to come together.</p><button class="text-link" id="explore-integrations">Explore integrations <svg><use href="#arrow"/></svg></button></div><div class="integration-map reveal" aria-label="Orbit connects with Slack, Notion, Figma, GitHub, Google Drive and Linear"><div class="orbit-circle orbit-circle-one"></div><div class="orbit-circle orbit-circle-two"></div><span class="integration-node node-slack">✣</span><span class="integration-node node-notion">N</span><span class="integration-node node-figma"><span class="figma-logo"><i></i><i></i><i></i><i></i><i></i></span></span><span class="integration-center"><span class="orbit-mark"></span></span><span class="integration-node node-github">GH</span><span class="integration-node node-google google-g">G</span><span class="integration-node node-linear"><span class="linear-logo"><i></i></span></span><span class="map-caption"><span class="live-dot"></span> Everything in its right place.</span></div></div></section>
+<section class="section pricing container" id="pricing"><div class="center-heading reveal"><span class="eyebrow">A LITTLE INVESTMENT. A LOT OF POSSIBILITY.</span><h2>Room to start. Space to grow.</h2><p>Simple plans for whatever’s next.</p></div><div class="billing-switch" role="group" aria-label="Billing period"><button class="active" data-billing="monthly" aria-pressed="true">Monthly</button><button data-billing="yearly" aria-pressed="false">Yearly <span>Save 20%</span></button></div><div class="pricing-grid">
+<article class="price-card reveal"><span class="plan-label">Free</span><p>For your next side project or big idea.</p><div class="price">$0<span>/ forever</span></div><button class="button button-white" data-start data-plan="Free">Start for free <svg><use href="#arrow"/></svg></button><div class="plan-rule"></div><ul><li>Up to 3 team members</li><li>Unlimited tasks</li><li>Boards and list views</li><li>Essential integrations</li></ul></article>
+<article class="price-card featured-plan reveal"><span class="popular">THE SWEET SPOT</span><span class="plan-label">Pro <svg><use href="#spark"/></svg></span><p>For teams finding their flow.</p><div class="price">$<span id="pro-price">12</span><span>/ member / month</span></div><button class="button" data-start data-plan="Pro">Try Pro for free <svg><use href="#arrow"/></svg></button><div class="plan-rule"></div><ul><li>Everything in Free</li><li>Unlimited projects and members</li><li>Timelines and custom workflows</li><li>Automations and advanced integrations</li><li>Priority support</li></ul></article>
+<article class="price-card reveal"><span class="plan-label">Business</span><p>For bigger teams and bigger things.</p><div class="price">$<span id="business-price">24</span><span>/ member / month</span></div><button class="button button-white" data-start data-plan="Business">Explore Business <svg><use href="#arrow"/></svg></button><div class="plan-rule"></div><ul><li>Everything in Pro</li><li>Advanced permissions</li><li>Guest access and team spaces</li><li>Workload and reporting</li><li>Dedicated onboarding</li></ul></article></div><p class="pricing-note">Illustrative plans for the Orbit product concept. Explore the workspace preview for free.</p></section>
+<section class="faq-section container" id="faq"><div class="faq-heading reveal"><span class="eyebrow">A FEW GOOD QUESTIONS</span><h2>A little more clarity.</h2><p>Curious about something? Start here.</p><a href="#demo" class="text-link">Explore the demo <svg><use href="#arrow"/></svg></a></div><div class="faq-list reveal"><details open><summary>What is Orbit?<span>+</span></summary><p>Orbit is a product concept for a calmer team workspace, bringing tasks, projects, and conversations together. This page includes an interactive preview so you can explore the experience.</p></details><details><summary>Can I try Orbit for free?<span>+</span></summary><p>Yes. Choose “Start for free” to personalize the sample workspace in your browser. This demo doesn’t require a credit card or create an online account.</p></details><details><summary>Does it work with the tools I already use?<span>+</span></summary><p>The concept includes connections with Slack, Figma, Notion, GitHub, Google Drive, and Linear. Integration cards on this page describe the planned workflows; they don’t connect to your accounts.</p></details><details><summary>Is Orbit a good fit for a small team?<span>+</span></summary><p>Orbit is designed around small product teams and growing creative teams. The Free concept plan gives a team of up to three people a simple starting point.</p></details><details><summary>Can I change my plan later?<span>+</span></summary><p>The proposed plans are designed to grow with your team. Pricing on this concept page is illustrative, and no payments or subscriptions are processed.</p></details></div></section>
+<section class="closing container reveal"><div class="closing-stars">✳</div><span class="eyebrow">GOOD THINGS ARE IN YOUR ORBIT.</span><h2>Less chaos.<br>More “look what we made.”</h2><p>Make space for the work you love.</p><button class="button" data-start>Find your flow <svg><use href="#arrow"/></svg></button><span class="closing-note">Free to start. A little easier from here.</span></section>
+</main>
+<footer class="footer container"><a href="#" class="brand"><span class="orbit-mark"></span>orbit<span class="brand-period">®</span></a><span>A little clarity. A lot of possibility.</span><div><a href="#features">Product</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><span>© 2026 Orbit</span></div></footer>
+<dialog id="start-dialog"><button class="dialog-close" aria-label="Close dialog">×</button><span class="dialog-emblem"><span class="orbit-mark"></span></span><span class="eyebrow">YOUR NEXT CHAPTER</span><h2>Find your orbit.</h2><p>Make this workspace your own. Explore the local preview—no account required.</p><form id="workspace-form"><label for="workspace-name">Workspace name</label><input id="workspace-name" name="workspace" placeholder="Your team or next big idea" maxlength="40" required><p class="form-helper" id="form-helper">Your preview stays in this browser.</p><button class="button" type="submit">Open my workspace <svg><use href="#arrow"/></svg></button></form><span class="selected-plan" id="selected-plan"></span></dialog>
+<dialog id="tour-dialog"><button class="dialog-close" aria-label="Close demo">×</button><span class="eyebrow">A QUICK LOOK AROUND</span><div class="tour-visual"><svg><use href="#layers"/></svg><div class="tour-bars"><i></i><i></i><i></i></div></div><div id="tour-content"></div><div class="tour-footer"><span id="tour-progress">01 / 03</span><button class="button" id="tour-next">Next <svg><use href="#arrow"/></svg></button></div></dialog>
+<dialog id="task-dialog"><button class="dialog-close" aria-label="Close new task">×</button><span class="eyebrow">ONE STEP CLOSER</span><h2>What’s next?</h2><form id="task-form"><label for="task-name">Task name</label><input id="task-name" required maxlength="70" placeholder="Bring your next idea to life"><label for="task-status">Status</label><select id="task-status"><option value="todo">To do</option><option value="progress">In progress</option><option value="done">Done</option></select><button class="button" type="submit">Add task <svg><use href="#plus"/></svg></button></form></dialog>
+<dialog id="integrations-dialog"><button class="dialog-close" aria-label="Close integrations">×</button><span class="eyebrow">THE WHOLE TOOLKIT</span><h2>Better in your orbit.</h2><p>A look at the connections envisioned for Orbit.</p><div id="integration-catalog"></div><p class="integration-disclaimer">Concept preview · Account connections are not enabled.</p></dialog>
+<div class="toast" role="status"><span class="update-check"><svg><use href="#check"/></svg></span><span id="toast-message"></span></div>
+</body></html>
